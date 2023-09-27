@@ -115,6 +115,13 @@ class _HomeScreenViewState extends State<_HomeScreenView> {
       body: BlocBuilder<HomeCubit, HomeState>(
         builder: (context, state) {
           if (state is HomeSuccess) {
+            final String imageUrl;
+            if (state.user.photo!.isEmpty) {
+              imageUrl =
+                  'https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250';
+            } else {
+              imageUrl = state.user.photo!;
+            }
             return Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -126,7 +133,7 @@ class _HomeScreenViewState extends State<_HomeScreenView> {
                     child: Stack(
                       children: [
                         Image.network(
-                          'https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250',
+                          imageUrl,
                           fit: BoxFit.fill,
                         ),
                         Align(
