@@ -33,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
             MaterialPageRoute(
               builder: (_) => const HomeScreen(),
             ),
-                (route) => false,
+            (route) => false,
           );
         }
         if (state is LoginError) {
@@ -41,45 +41,49 @@ class _LoginScreenState extends State<LoginScreen> {
         }
       },
       child: Scaffold(
-        appBar: AppBar(title: const Text('Valsco'),),
-        body: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Text(
-                'Login with',
-                style: TextStyle(
-                  fontWeight: FontWeight.w500,
-                  fontSize: 16,
-                ),
-              ),
-              GestureDetector(
-                onTap: () {
-                  context.read<LoginCubit>().googleSignIn();
-                },
-                child: Container(
-                  margin: const EdgeInsets.only(top: 20),
-                    height: 40,
-                    width: 200,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(24),
-                      color: Colors.yellowAccent,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset('assets/img.png'),
-                        const Text('Google',style: TextStyle(fontSize: 18),)
-                      ],
-                    )),
-              ),
-            ],
+          appBar: AppBar(
+            title: const Text('Valsco'),
           ),
-        )
-
-      ),
+          body: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text(
+                  'Login with',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 16,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    context.read<LoginCubit>().googleSignIn();
+                  },
+                  child: Container(
+                      margin: const EdgeInsets.only(top: 20),
+                      height: 40,
+                      width: 200,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(24),
+                        color: Colors.yellowAccent,
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/img.png'),
+                          const Text(
+                            'Google',
+                            style: TextStyle(fontSize: 18),
+                          )
+                        ],
+                      )),
+                ),
+              ],
+            ),
+          )),
     );
   }
+
   void _showError(String error) {
     showDialog(
       context: context,
@@ -104,4 +108,3 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
-

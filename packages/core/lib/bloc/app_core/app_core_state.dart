@@ -13,6 +13,7 @@ class AppCoreLogoutError extends AppCoreState {
   @override
   List<Object> get props => [];
 }
+
 class AppCoreLogout extends AppCoreState {
   @override
   List<Object> get props => [];

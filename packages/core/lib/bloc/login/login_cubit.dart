@@ -9,7 +9,6 @@ class LoginCubit extends Cubit<LoginState> {
         super(LoginInitial());
   final AuthRepository _authRepository;
 
-
   Future<void> googleSignIn() async {
     emit(LoginLoading());
     try {

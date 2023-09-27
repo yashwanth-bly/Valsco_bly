@@ -13,6 +13,7 @@ class HomeLoading extends HomeState {
   @override
   List<Object> get props => [];
 }
+
 class HomeSuccess extends HomeState {
   final ValscoUser user;
 
@@ -20,6 +21,7 @@ class HomeSuccess extends HomeState {
   @override
   List<Object> get props => [user];
 }
+
 class HomeError extends HomeState {
   @override
   List<Object> get props => [];
