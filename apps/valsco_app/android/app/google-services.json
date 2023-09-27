@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "942860456892",
+    "project_id": "deciml-bly",
+    "storage_bucket": "deciml-bly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942860456892:android:6dcf00b2448b4a851d51b9",
+        "android_client_info": {
+          "package_name": "com.deciml.bly.deciml_bly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942860456892-rg4j97sv7ndeve7age4f40caua9p71ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPKmImOT18z3pujtTSXhdJeBV8GoCf-xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942860456892-cd2cjkka3a1uosnk6gefqgkeq438vhvo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942860456892-70hi4q3h6umud4v448ujm4cdipmpmkjn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deciml.bly.decimlBly"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942860456892:android:8c2c0026682d170f1d51b9",
+        "android_client_info": {
+          "package_name": "com.example.quantum_it_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942860456892-rmjqg4mqmvdu04jp5h4n46jhja19pnd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quantum_it_assignment",
+            "certificate_hash": "2b879ed5bb8b7ebfb29f1d844b2c39dc43b3222d"
+          }
+        },
+        {
+          "client_id": "942860456892-rg4j97sv7ndeve7age4f40caua9p71ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPKmImOT18z3pujtTSXhdJeBV8GoCf-xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942860456892-cd2cjkka3a1uosnk6gefqgkeq438vhvo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942860456892-70hi4q3h6umud4v448ujm4cdipmpmkjn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deciml.bly.decimlBly"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942860456892:android:7083efd7474328491d51b9",
+        "android_client_info": {
+          "package_name": "com.velsco.bly.valsco_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942860456892-1k9tbamhbdq5g02app5eqc9ljkat524d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.velsco.bly.valsco_app",
+            "certificate_hash": "2b879ed5bb8b7ebfb29f1d844b2c39dc43b3222d"
+          }
+        },
+        {
+          "client_id": "942860456892-rg4j97sv7ndeve7age4f40caua9p71ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPKmImOT18z3pujtTSXhdJeBV8GoCf-xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942860456892-cd2cjkka3a1uosnk6gefqgkeq438vhvo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942860456892-70hi4q3h6umud4v448ujm4cdipmpmkjn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deciml.bly.decimlBly"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
