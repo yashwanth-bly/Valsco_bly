@@ -47,7 +47,7 @@ class AuthRepository {
   Future<ValscoUser> addUser() async {
     User user = getUser()!;
     final userJson = {'name': user.displayName, 'uid': user.uid, 'photo': ''};
-    await users.add(userJson);
+    await users.doc(user.uid).set(userJson);
     return ValscoUser.fromJson(userJson);
   }
 
@@ -68,6 +68,7 @@ class AuthRepository {
     uploadTask = ref.putFile(File(file.path), metadata);
 
     final url = await (await uploadTask).ref.getDownloadURL();
+
 
     return users.doc(userId).update({'photo': url});
   }
